@@ -1,0 +1,16 @@
+# Reasonix 内部数据（非项目文件）
+.reasonix/
+reasonix.toml
+
+# Python 运行环境 / 数据集（体积大，不入库）
+python310/
+helmet_dataset/
+datasets/
+
+# 训练缓存与系统文件
+*.cache
+Thumbs.db
+Desktop.ini
+
+# 本地临时脚本
+*.bak

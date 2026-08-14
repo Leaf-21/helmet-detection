@@ -1,0 +1,8 @@
+# 安全帽佩戴检测数据集配置
+path: D:\智能制造\helmet_dataset
+train: images/train
+val: images/val
+nc: 2
+names:
+  0: helmet
+  1: head
